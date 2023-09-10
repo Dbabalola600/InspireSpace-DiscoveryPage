@@ -29,7 +29,7 @@ export default function Index() {
 
 
         {/* <div className="bg-gray-300 px-10 py-5 lg:grid  lg:grid-cols-6  lg:divide-x-2 divide-black justify-center  mt-5 w-full grid grid-cols-2 space-y-4"> */}
-        <div className="bg-gray-300  px-10 py-5 lg:grid lg:grid-cols-6 lg:divide-x-2 divide-black text-center mt-5 grid grid-cols-2 gap-y-3"    >
+        <div className="bg-gray-300 py-2 lg:mx-20 lg:px-10 lg:py-2 lg:grid lg:grid-cols-6 lg:divide-x-2 divide-black text-center mt-5 grid grid-cols-2 gap-y-3"    >
           <div className="col-span-1 flex items-center">
             <div className="flex-grow">illustrations</div>
 
@@ -63,11 +63,11 @@ export default function Index() {
 
 
         <div
-          className=" lg:w-1/4 "
+          className="  "
         >
 
           <div
-            className="mt-5"
+            className="mt-5 flex justify-end lg:mx-[80px]"
           >
             <SearchBar />
           </div>
@@ -79,12 +79,13 @@ export default function Index() {
           className=" mt-[30px]  lg:grid lg:grid-cols-3 "
         >
 
-         <DiscoverCard/>
-         <DiscoverCard/>
+          <DiscoverCard />
+          <DiscoverCard />
 
 
-<DiscoverCard/>
-          
+          <DiscoverCard />
+          <DiscoverCard />
+
         </div>
 
 

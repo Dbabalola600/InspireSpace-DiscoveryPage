@@ -11,7 +11,7 @@ export default function DefaultLayout({ children }: { children?: JSX.Element }) 
         <div>
             <div className="bg-white md:space-y-5  min-h-screen">
                 <NavBar />
-                <div className="bg max-w-full mx-auto py-5 px-10 md:py-10 md:px-20 min-h-screen md:min-h-0">
+                <div className="bg max-w-full mx-auto py-5 px-10 md:py-14 md:px-20 min-h-screen md:min-h-0">
                     <main>
                         <Head>
                             <title>InspireSpace</title>
